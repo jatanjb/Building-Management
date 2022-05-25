@@ -1,0 +1,135 @@
+/* Name: Bhatt Jatan Rajeshbhai, Student ID: 1001927386
+Name: Jadhav Siddhesh Prakash ,StudentID: 1001876969
+Name: Sandrana Deepak, Student ID: 1001960748 */
+
+.graph1 {
+	margin-bottom:1em;
+  font:normal 100%/150% arial,helvetica,sans-serif;
+}
+
+.graph1 caption {
+	font:bold 150%/120% arial,helvetica,sans-serif;
+	padding-bottom:0.33em;
+}
+
+.graph1 tbody th {
+	text-align:right;
+}
+
+
+.graph1 {
+
+  display:block;
+  width:1200px;
+  height:250px;
+}
+
+.graph1 caption {
+  display:block;
+}
+
+.graph1 thead {
+  display:none;
+}
+
+.graph1 tbody {
+  position:relative;
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(2em, 1fr));
+  column-gap:2%;
+  align-items:end;
+  height:100%;
+  margin:3em 0 1em 2.8em;
+  padding:0 1em;
+  border-bottom:2px solid rgba(0,0,0,0.5);
+  background:repeating-linear-gradient(
+    180deg,
+    rgba(170,170,170,0.7) 0,
+    rgba(170,170,170,0.7) 1px,
+    transparent 1px,
+    transparent 20%
+  );
+}
+
+.graph1 tbody:before,
+.graph1 tbody:after {
+  position:absolute;
+  left:-3.2em;
+  width:2.8em;
+  text-align:right;
+  font:bold 80%/120% arial,helvetica,sans-serif;
+}
+
+.graph1 tbody:before {
+  content:"100%";
+  top:-0.6em;
+}
+
+.graph1 tbody:after {
+  content:"0%";
+  bottom:-0.6em;
+}
+
+.graph1 tr {
+  position:relative;
+  display:block;
+}
+
+.graph1 tr:hover {
+  z-index:999;
+}
+
+.graph1 th,
+.graph1 td {
+  display:block;
+  text-align:center;
+}
+
+.graph1 tbody th {
+  position:absolute;
+  top:-3em;
+  left:0;
+  width:100%;
+  font-weight:normal;
+  text-align:center;
+  white-space:nowrap;
+  text-indent:0;
+  transform:rotate(-45deg);
+}
+
+.graph1 tbody th:after {
+  content:"";
+}
+
+.graph1 td {
+  width:40%;
+  height:100%;
+  background:#2C81B8;
+  border-radius:0.5em 0.5em 0 0;
+}
+
+.graph1 tr:hover td {
+  opacity:0.7;
+}
+
+.graph1 td span {
+  overflow:hidden;
+  position:absolute;
+  left:50%;
+  top:50%;
+  width:0;
+  padding:0.5em 0;
+  margin:-1em 0 0;
+  font:sans-serif;
+  font-weight:bold;
+  opacity:0;
+  transition:opacity 0.5s;
+  color:black;
+}
+
+.togglegraph1:checked + table td span,
+.graph1 tr:hover td span {
+  width:4em;
+  margin-left:-2em;
+  opacity:1;
+}

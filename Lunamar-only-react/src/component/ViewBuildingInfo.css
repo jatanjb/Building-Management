@@ -1,0 +1,24 @@
+/* Name: Bhatt Jatan Rajeshbhai, Student ID: 1001927386
+Name: Jadhav Siddhesh Prakash ,StudentID: 1001876969
+Name: Sandrana Deepak, Student ID: 1001960748 */
+
+table{
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	  margin-top:100px;
+  }
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+th{
+      color: #2C81B8;
+  }
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }

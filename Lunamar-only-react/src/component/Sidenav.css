@@ -1,0 +1,45 @@
+/* Name: Bhatt Jatan Rajeshbhai, Student ID: 1001927386
+Name: Jadhav Siddhesh Prakash ,StudentID: 1001876969
+Name: Sandrana Deepak, Student ID: 1001960748 */
+
+body {
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+/* li {
+    list-style-type: none;
+} */
+/*  */
+nav {
+    width: 100%;
+    text-align: center;
+}
+nav a {
+    display: block;
+    padding: 15px 0;
+    /* border-bottom: 1px solid #FFF; */
+    color: #FFF;
+}
+nav a:hover {
+    background: #000000;
+    color: #FFF;
+}
+nav li:last-child a {
+    border-bottom: none;
+  }
+
+
+.side-bar {
+    width: 240px;
+    height: 140%;
+    position: absolute;
+    background-color: #2C81B8;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
